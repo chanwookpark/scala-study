@@ -6,7 +6,6 @@ package map
 object TupleTest {
 
   def main(args: Array[String]) {
-    println(">>" + getClass.getName)
 
     val t1 = (1, 3.14, "woojin")
     // tuple index는 1에서부터 시작함!

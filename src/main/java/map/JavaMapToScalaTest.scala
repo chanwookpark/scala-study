@@ -12,8 +12,6 @@ object JavaMapToScalaTest {
 
   def main(args: Array[String]) {
 
-    println(">> " + getClass.getName)
-
     // JavaMap -> ScalaMap
     val scores: scala.collection.mutable.Map[String, Int] = new util.TreeMap[String, Int]();
 

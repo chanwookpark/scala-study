@@ -8,7 +8,6 @@ import scala.collection.mutable
 object MapTest {
 
   def main(args: Array[String]) {
-    println(">> " + getClass.getName)
 
     // (a,b)와 a->b 동일한 표현
     /* Immutable map */
